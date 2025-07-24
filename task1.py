@@ -9,4 +9,24 @@ meals = ["Gwote", "Masa", "Tuwon Acha", "Fura da Nono", "Kunu", "Miyan Kuka"]
 4.⁠ ⁠The program coordinator asks you to find out which meal is exactly at the center of the list now.
 5. Arrange the Meals in alphabetical order
 → Modify the list as required and print the final list and the center meal.
+
 """
+meals = ["Gwote", "Masa", "Tuwon Acha", "Fura da Nono", "Kunu", "Miyan Kuka"]  
+
+# Question 1
+meals.insert(4, "Miyan Taushe")
+print("1. ", meals)
+
+# Question 2
+meals.remove(meals[1])
+print("2. ", meals)
+
+# Question 3
+meals[2], meals[5] = meals[5], meals[2]
+print("3. ", meals)
+
+# Question 4
+length=len(meals)//2
+print("4. ", meals[length-1:length+1])
+
+# Question 5
