@@ -10,3 +10,18 @@ genres = ["Adventure", "Comedy", "Animation", "Fantasy", "Sci-Fi", "Documentary"
 
 → Modify the list and display the required results.
 """
+
+# Question 1
+genres = ["Adventure", "Comedy", "Animation", "Fantasy", "Sci-Fi", "Documentary", "Fantasy"] 
+
+genres.append("Drama")
+print("1. ", genres)
+# Question 2
+
+genres.remove(genres[3])
+print("2. ", genres)
+# Question 3
+print("3. ", len(genres))
+# Question 4
+print("4i. ", genres[1])
+print("4ii. ", genres[-2])
