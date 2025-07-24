@@ -30,3 +30,5 @@ length=len(meals)//2
 print("4. ", meals[length-1:length+1])
 
 # Question 5
+
+print(sorted(meals))
